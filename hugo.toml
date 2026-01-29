@@ -33,3 +33,9 @@ enableRobotsTXT = true
     name = "Download CV"
     url = "/cv.pdf"
     weight = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
