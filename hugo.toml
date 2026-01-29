@@ -1,0 +1,35 @@
+baseURL = "https://burintbevis.com/"
+languageCode = "en-us"
+title = "Burint Bevis"
+theme = "blowfish"
+enableRobotsTXT = true
+
+[params]
+  description = "PhD candidate at Imperial College London. Research, writing, and contact."
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Research"
+    pageRef = "research"
+    weight = 20
+
+  [[menu.main]]
+    name = "Blog"
+    pageRef = "blog"
+    weight = 30
+
+  [[menu.main]]
+    name = "Contact"
+    pageRef = "contact"
+    weight = 40
+
+  [[menu.footer]]
+    name = "Download CV"
+    url = "/cv.pdf"
+    weight = 10
