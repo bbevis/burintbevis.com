@@ -1,0 +1,15 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+
+[params]
+  [params.author]
+    name = "Burint Bevis"
+    image = "headshot.jpg"
+    headline = "PhD candidate at Imperial College London"
+    bio = "I study how people can disagree constructively."
+    links = [
+      { email = "mailto:b.bevis20@imperial.ac.uk" },
+      { github = "https://github.com/bbevis" },
+      { scholar = "https://scholar.google.com/citations?user=EM78kQsAAAAJ&hl=en" }
+    ]
