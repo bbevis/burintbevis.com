@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Burint Bevis"
 theme = "blowfish"
 enableRobotsTXT = true
+author = "burint"
 
 [params]
   description = "PhD candidate at Imperial College London. Research, writing, and contact."

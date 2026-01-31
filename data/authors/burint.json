@@ -1,0 +1,10 @@
+{
+  "name": "Burint Bevis",
+  "image": "/img/headshot.jpg",
+  "bio": "PhD candidate at Imperial College London. I study how people can disagree constructively.",
+  "links": [
+    { "email": "mailto:b.bevis20@imperial.ac.uk" },
+    { "github": "https://github.com/bbevis" },
+    { "scholar": "https://scholar.google.com/citations?user=EM78kQsAAAAJ&hl=en" }
+  ]
+}
