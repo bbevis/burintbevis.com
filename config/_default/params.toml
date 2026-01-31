@@ -9,7 +9,7 @@ enableCodeCopy = false
   layout = "fixed"
 
 [footer]
-  showMenu = true
+  showMenu = false
   showCopyright = true
   showThemeAttribution = false
   showAppearanceSwitcher = true
