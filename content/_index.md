@@ -3,7 +3,6 @@ title: "Burint Bevis"
 description: "PhD candidate at Imperial College London. Research, writing, and contact."
 ---
 
-## Hi — I’m Burint.
 
 I’m a computational social scientist who combines NLP, multimodal models, and large language models with experiments to study a pressing question: how can people on opposing sides disagree constructively? Disagreement might be uncomfortable, but when managed well, it helps teams surface new ideas, test and refine them, and tackle complex problems.
 
