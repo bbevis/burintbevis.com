@@ -50,10 +50,12 @@
 </style>
 
 <style>
-  /* Widen text column (Blowfish uses .prose which defaults to ~65ch) */
+  /* Widen text column on content pages */
   @media (min-width: 1024px) {
-    .prose {
-      max-width: 90ch;
+    .prose,
+    .max-w-prose {
+      max-width: 100ch !important;
     }
   }
 </style>
+
