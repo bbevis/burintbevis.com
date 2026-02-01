@@ -25,11 +25,6 @@ author = "burint"
     pageRef = "blog"
     weight = 30
 
-  [[menu.main]]
-    name = "Contact"
-    pageRef = "contact"
-    weight = 40
-
   [[menu.footer]]
     name = "Download CV"
     url = "/cv.pdf"
