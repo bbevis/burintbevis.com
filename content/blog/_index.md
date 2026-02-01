@@ -1,4 +1,6 @@
 ---
 title: "Blog"
-description: "Updates, notes, and longer-form writing."
+description: "Notes and updates."
 ---
+
+Short notes, research updates, and occasional longer posts.

@@ -1,7 +1,9 @@
 ---
-title: "Hello World"
-date: 2026-01-29
-description: "First post."
-tags: ["updates"]
+title: "Welcome"
+date: 2026-02-01
+description: "A short note on what I’ll share here."
 ---
-This is my first post. More soon.
+
+I’ll use this space for brief research updates, notes in progress, and links to new work.
+
+If you’re looking for papers and abstracts, see the Research page.
