@@ -54,18 +54,10 @@ Research consistently shows a partisan well-being gap, with liberals reporting l
 
 ## Work in Progress
 
-- **Question Asking and Vocal Intensity as Mechanisms for Constructive Disagreement**
+- **Question Asking and Vocal Intensity as Mechanisms for Constructive Disagreement** - **Bevis, B.**, Hu, X., Houghton, J., Kennedy, M.
 
-  **Bevis, B.**, Hu, X., Houghton, J., Kennedy, M.
+- **Does Communication Media Mediate the Relationship Between Gender and Constructive Disagreement?** - Schroeder, J., **Bevis, B.**, Yeomans, M.
 
-- **Does Communication Media Mediate the Relationship Between Gender and Constructive Disagreement?**
-  
-  Schroeder, J., **Bevis, B.**, Yeomans, M.
+- **A Unifying Theory of Constructive Disagreement** - **Bevis, B.**, Goglia, D., Wohlert, I.
 
-- **A Unifying Theory of Constructive Disagreement**
-  
-  **Bevis, B.**, Goglia, D., Wohlert, I.
-
-- **A Novel LLM-based Approach for Annotating Conversation Turns**
-  
-  **Bevis, B.**, Huang, E., Kumar, A.
+- **A Novel LLM-based Approach for Annotating Conversation Turns** - **Bevis, B.**, Huang, E., Kumar, A.
