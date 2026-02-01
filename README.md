@@ -26,11 +26,15 @@ Work on draft. Merge to main only when ready to publish.
 
 bash
 
+# do this once
 git checkout draft
+
 # edit files
 git add -A
 git commit -m "Message"
 git push
+
+
 Publish later:
 
 bash
