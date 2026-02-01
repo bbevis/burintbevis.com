@@ -29,3 +29,5 @@ enableCodeCopy = false
   showReadingTime = false
   showTableOfContents = false
   showTaxonomies = false
+  showWordCount = false
+
