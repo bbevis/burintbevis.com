@@ -21,7 +21,7 @@ enableCodeCopy = false
   showMoreLink = false
 
 [article]
-  showDate = false
+  showDate = true
   showViews = false
   showLikes = false
   showAuthor = false
@@ -30,4 +30,9 @@ enableCodeCopy = false
   showTableOfContents = false
   showTaxonomies = false
   showWordCount = false
+
+[list]
+  showDate = true
+  showSummary = false
+
 
