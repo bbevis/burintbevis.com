@@ -59,3 +59,26 @@
   }
 </style>
 
+<style>
+  /* Subtle content accents (headings + abstract toggles) */
+  details {
+    border-left: 3px solid color-mix(in srgb, var(--brand-accent) 30%, transparent);
+    padding-left: 0.9rem;
+    margin-top: 0.75rem;
+  }
+  details[open] {
+    border-left-color: var(--brand-accent);
+  }
+  details > summary {
+    cursor: pointer;
+    color: var(--brand-primary);
+  }
+  details > summary:hover {
+    color: var(--brand-accent);
+  }
+
+  .prose h2 {
+    border-left: 4px solid color-mix(in srgb, var(--brand-accent) 55%, transparent);
+    padding-left: 0.6rem;
+  }
+</style>
