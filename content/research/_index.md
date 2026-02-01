@@ -5,7 +5,7 @@ description: "Working papers, manuscripts, and projects."
 
 ## Publications
 
-**Bevis, B.**, Schroeder, J., & Yeomans, M. (in press). Speaking makes disagreement more constructive than writing. *Nature Communications*. https://doi.org/10.17605/OSF.IO/C3ZGY
+**Bevis, B.**, Schroeder, J., & Yeomans, M. (in press). Speaking makes disagreement more constructive than writing. *Nature Communications*. [OSF](https://doi.org/10.17605/OSF.IO/C3ZGY)
 
 <details>
   <summary><strong>Abstract</strong></summary>
