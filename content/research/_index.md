@@ -22,7 +22,6 @@ Amid rising global polarization, finding ways to disagree constructively is vita
 
 ### The Politeness Package: Using Sentence Structure to Understand Conversational Text
 **Bevis, B.**, Shi, Y., Yeomans, M.  
-*Target journal:* **Advances in Methods and Practices in Psychological Science**
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -33,7 +32,6 @@ Organizations are filled with conversations, and how people treat each other can
 
 ### Understanding Constructive Disagreements: Exploring Behaviors in High-Stakes Negotiation Outcomes
 **Bevis, B.**, Hu, X., Houghton, J., Kennedy, M.  
-*Target journal:* **Science**
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -44,7 +42,6 @@ Disagreement is often central to high-stakes problem-solving, yet managing the t
 
 ### Exploring the Indirect Effects of Political Beliefs on Wellbeing via Social Media Usage
 **Bevis, B.**, Talaifar, S., Jordan, D., Harari, G., Gosling, S., Back, M., Kroencke, L.  
-*Target journal:* **Psychological Science**
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -57,7 +54,7 @@ Research consistently shows a partisan well-being gap, with liberals reporting l
 
 ## Work in Progress
 
-- **Question Asking and Vocal Intensity as Mechanisms for Constructive Disagreement** — Bevis, B., Hu, X., Houghton, J., Kennedy, M. (*Target:* Organization Science)
-- **Does Communication Media Mediate the Relationship Between Gender and Constructive Disagreement?** — Schroeder, J., Bevis, B., Yeomans, M. (*Target:* Proceedings of the National Academy of Sciences)
-- **A Unifying Theory of Constructive Disagreement** — Bevis, B., Goglia, D., Wohlert, I. (*Target:* Academy of Management Review)
-- **A Novel LLM-based Approach for Annotating Conversation Turns** — Bevis, B., Huang, E., Kumar, A. (*Target:* Organizational Research Methods)
+- **Question Asking and Vocal Intensity as Mechanisms for Constructive Disagreement** — Bevis, B., Hu, X., Houghton, J., Kennedy, M.
+- **Does Communication Media Mediate the Relationship Between Gender and Constructive Disagreement?** — Schroeder, J., Bevis, B., Yeomans, M.
+- **A Unifying Theory of Constructive Disagreement** — Bevis, B., Goglia, D., Wohlert, I.
+- **A Novel LLM-based Approach for Annotating Conversation Turns** — Bevis, B., Huang, E., Kumar, A.
