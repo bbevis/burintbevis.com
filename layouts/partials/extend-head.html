@@ -20,6 +20,7 @@
 
     --brand-primary: #232333;
     --brand-accent: #40e0d0;
+    --brand-accent-2: #000080;
 
     --brand-danger: #dc143c;
     --brand-success: #006400;
@@ -62,23 +63,23 @@
 <style>
   /* Subtle content accents (headings + abstract toggles) */
   details {
-    border-left: 3px solid color-mix(in srgb, var(--brand-accent) 30%, transparent);
+    border-left: 3px solid color-mix(in srgb, var(--brand-accent-2) 30%, transparent);
     padding-left: 0.9rem;
     margin-top: 0.75rem;
   }
   details[open] {
-    border-left-color: var(--brand-accent);
+    border-left-color: var(--brand-accent-2);
   }
   details > summary {
     cursor: pointer;
     color: var(--brand-primary);
   }
   details > summary:hover {
-    color: var(--brand-accent);
+    color: var(--brand-accent-2);
   }
 
   .prose h2 {
-    border-left: 4px solid color-mix(in srgb, var(--brand-accent) 55%, transparent);
+    border-left: 4px solid color-mix(in srgb, var(--brand-accent-2) 55%, transparent);
     padding-left: 0.6rem;
   }
 </style>
