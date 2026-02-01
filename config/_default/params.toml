@@ -21,7 +21,7 @@ enableCodeCopy = false
   showMoreLink = false
 
 [article]
-  showDate = false
+  showDate = true
   showViews = false
   showLikes = false
   showAuthor = false
