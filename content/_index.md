@@ -3,12 +3,10 @@ title: "Burint Bevis"
 description: "PhD candidate at Imperial College London. Research, writing, and contact."
 ---
 
+I am a computational social scientist studying how people with different views, interests and priorities can collaborate constructively. I’m especially interested in how people can stand their ground, challenge one another, and still make progress without damaging relationships. I combine experiments with computational tools (NLP, multimodal models, and large language models) to analyze behaviors in communication in fine-grained detail and zoom in on the moments that matter most.
 
-I’m a computational social scientist who combines NLP, multimodal models, and large language models with experiments to study a pressing question: how can people on opposing sides disagree constructively? Disagreement might be uncomfortable, but when managed well, it helps teams surface new ideas, test and refine them, and tackle complex problems.
+Constructive disagreement matters because it’s how groups push through impasses on hard problems and make progress together. We need it to tackle divisive issues like climate policy in ways that are both effective and broadly acceptable. We also need it at work when people have competing interests and priorities, and in science when collaborators disagree about which direction a project should take.
 
-Constructive disagreement is essential for moving complex, divisive issues forward—whether we’re debating hot-button political issues like immigration policy or climate action, deciding on the direction of scientific research, or helping work teams align on a strategy when priorities and incentives differ.
-
-My work spans three connected lines of research. First, I study how choices made *before* disagreements shape the behaviors and outcomes that follow. Second, I examine what happens *during* disagreement using multimodal models that integrates verbal and nonverbal cues at the speaker-turn level. Third, I extend this work to broader societal outcomes—what happens when opposing sides struggle to engage with one another constructively, including how polarization, social media use, and political orientation relate to wellbeing.
-
+Outside of research, I was lucky enough to grow up in both Thailand and the UK. I love a spicy curry as much as a Sunday roast, and I’m equally happy on a beautiful beach or on a long walk along the Thames stopping off at galleries and cafes—proof (I like to think) that it’s possible to hold divergent interests.
 
 [Download CV](/cv.pdf)
