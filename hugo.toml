@@ -20,10 +20,10 @@ author = "burint"
     pageRef = "research"
     weight = 20
 
-  #[[menu.main]]
-  #  name = "Blog"
-  #  pageRef = "blog"
-  #  weight = 30
+  [[menu.main]]
+    name = "Blog"
+    pageRef = "blog"
+    weight = 30
 
   [[menu.footer]]
     name = "Download CV"
