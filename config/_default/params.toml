@@ -12,7 +12,7 @@ enableCodeCopy = false
   showMenu = false
   showCopyright = true
   showThemeAttribution = false
-  showAppearanceSwitcher = false
+  showAppearanceSwitcher = true
   showScrollToTop = true
 
 [homepage]
@@ -21,6 +21,7 @@ enableCodeCopy = false
   showMoreLink = false
 
 [article]
+  showHeadingAnchors = false
   showDate = true
   showViews = false
   showLikes = false

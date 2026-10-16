@@ -1,12 +1,12 @@
 ---
 title: "Burint Bevis"
-description: "PhD candidate at Imperial College London. Research, writing, and contact."
+description: "Postdoctoral Research Fellow at the University of Vienna, Faculty of Business, Economics and Statistics. Research, writing, and contact."
 ---
 
-I am a computational social scientist studying how people with different views, interests and priorities can collaborate constructively. I’m especially interested in how people can stand their ground, challenge one another, and still make progress without damaging relationships. I combine experiments with computational tools (NLP, multimodal models, and large language models) to analyze behaviors in communication in fine-grained detail and zoom in on the moments that matter most.
+## How can we challenge each other vigorously and still work well together?
 
-Constructive disagreement matters because it’s how groups push through impasses on hard problems and make progress together. We need it to tackle divisive issues like climate policy in ways that are both effective and broadly acceptable. We also need it at work when people have competing interests and priorities, and in science when collaborators disagree about which direction a project should take.
+Behind many difficult problems lies another: how to make progress with people who see things differently. Disagreement can help us question assumptions and find better answers, but it can also leave us stuck. I study what helps us work through those impasses and strengthen our relationships at the same time.
 
-Outside of research, I was lucky enough to grow up in both Thailand and the UK. I love a spicy curry as much as a Sunday roast, and I’m equally happy on a beautiful beach or on a long walk along the Thames stopping off at galleries and cafes—proof (I like to think) that it’s possible to hold divergent interests.
+I combine experiments with computational tools to examine disagreements in finer detail—from the words people choose and their tone of voice to the critical junctures that shape where a disagreement goes next.
 
-[Download CV](/cv.pdf)
+I’m a Postdoctoral Research Fellow at the University of Vienna. I completed my PhD in Organizational Behavior at Imperial College London and a MSc in Data Science at King’s College London.

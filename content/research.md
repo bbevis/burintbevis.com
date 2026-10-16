@@ -2,11 +2,20 @@
 title: "Research"
 description: "Working papers, manuscripts, and projects."
 showDate: false
+showPagination: false
 ---
 
 ## Publications
 
-**Bevis, B.**, Schroeder, J., & Yeomans, M. (in press). Spoken disagreement is more constructive than written disagreement. *Nature Communications*. [[OSF]](https://doi.org/10.17605/OSF.IO/C3ZGY)
+{{< panel >}}
+
+### Spoken disagreement is more constructive than written disagreement
+
+**Bevis, B.**, Schroeder, J., & Yeomans, M.
+
+*Nature Communications* (2026)
+
+[Read the paper](https://www.nature.com/articles/s41467-026-71669-5) · [OSF / Research materials](https://doi.org/10.17605/OSF.IO/C3ZGY)
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -15,11 +24,19 @@ Amid rising global polarization, finding ways to disagree constructively is vita
 
 </details>
 
+{{< /panel >}}
+
 ---
 
 ## Manuscripts in Preparation
 
-**Bevis, B.**, Shi, Y., & Yeomans, M. (manuscript in preparation). The politeness package: Using sentence structure to understand conversational text. *(Target journal: *Advances in Methods and Practices in Psychological Science*.)*
+{{< panel >}}
+
+### The politeness package: Using sentence structure to understand conversational text
+
+**Bevis, B.**, Shi, Y., & Yeomans, M.
+
+Manuscript in preparation · Target journal: *Advances in Methods and Practices in Psychological Science*
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -28,7 +45,15 @@ Organizations are filled with conversations, and how people treat each other can
 
 </details>
 
-**Bevis, B.**, Hu, X., Houghton, J., & Kennedy, M. (manuscript in preparation). Understanding constructive disagreements: Exploring behaviors in high-stakes negotiation outcomes. *(Target journal: *Science*.)*
+{{< /panel >}}
+
+{{< panel >}}
+
+### Understanding constructive disagreements: Exploring behaviors in high-stakes negotiation outcomes
+
+**Bevis, B.**, Hu, X., Houghton, J., & Kennedy, M.
+
+Manuscript in preparation · Target journal: *Administrative Science Quarterly*
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -37,7 +62,15 @@ High-stakes problem-solving requires exploring different paths to solutions, yet
 
 </details>
 
-**Bevis, B.**, Talaifar, S., Jordan, D., Harari, G., Gosling, S., Back, M., & Kroencke, L. (manuscript in preparation). Exploring the indirect effects of political beliefs on wellbeing via social media usage. *(Target journal: *Psychological Science*.)*
+{{< /panel >}}
+
+{{< panel >}}
+
+### Exploring the indirect effects of political beliefs on wellbeing via social media usage
+
+**Bevis, B.**, Talaifar, S., Jordan, D., Harari, G., Gosling, S., Back, M., & Kroencke, L.
+
+Manuscript in preparation · Target journal: *PNAS*
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -46,12 +79,12 @@ Research consistently shows a partisan well-being gap, with liberals reporting l
 
 </details>
 
+{{< /panel >}}
+
 ---
 
 ## Work in Progress
 
-- **Bevis, B.**, Hu, X., Houghton, J., & Kennedy, M. (work in progress). Question asking and vocal intensity as mechanisms for constructive disagreement. *(Target journal: *Organization Science*.)*
-- Schroeder, J., **Bevis, B.**, & Yeomans, M. (work in progress). Does communication media mediate the relationship between gender and constructive disagreement? *(Target journal: *Proceedings of the National Academy of Sciences*.)*
-- **Bevis, B.**, Goglia, D., & Wohlert, I. (work in progress). A unifying theory of constructive disagreement. *(Target journal: *Academy of Management Review*.)*
-- **Bevis, B.**, Huang, E., & Kumar, A. (work in progress). A novel LLM-based approach for annotating conversation turns. *(Target journal: *Organizational Research Methods*.)*
+- **Bevis, B.**, Huang, E., & Kumar, A. (work in progress). TurnPoint: A transformer-based approach for identifying critical junctures in disagreement. *(Target journal: *Organization Science*.)*
 -  Kennedy, M., **Bevis, B.** (work in progress). Walled-ff worlds: Technology-Enabled Polarization and Institutional Fragility. *(Target journal: *Academy of Management Review*.)*
+- **Bevis, B.**, Goglia, D., & Wohlert, I. (work in progress). A unifying theory of constructive disagreement. *(Target journal: *Academy of Management Review*.)*

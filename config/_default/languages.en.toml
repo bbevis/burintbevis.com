@@ -6,13 +6,13 @@ weight = 1
   [params.author]
     name = "Burint Bevis"
     image = "headshot.jpg"
-    headline = "PhD candidate at Imperial College London"
+    headline = "Postdoctoral Research Fellow<br>University of Vienna<br>Faculty of Business, Economics and Statistics"
     bio = "I study how people can disagree constructively."
     links = [
-      { email = "mailto:b.bevis20@imperial.ac.uk" },
+      { email = "mailto:burint.bevis@univie.ac.at" },
       { github = "https://github.com/bbevis" },
       { linkedin = "https://www.linkedin.com/in/burint-bevis-72b5a811/" },
       { scholar = "https://scholar.google.com/citations?user=EM78kQsAAAAJ&hl=en" },
-      { imperial = "https://profiles.imperial.ac.uk/b.bevis20" }
+      { link = "https://ufind.univie.ac.at/en/person.html?id=1023429" }
     ]
 

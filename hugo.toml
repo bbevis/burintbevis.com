@@ -6,7 +6,7 @@ enableRobotsTXT = true
 author = "burint"
 
 [params]
-  description = "PhD candidate at Imperial College London. Research, writing, and contact."
+  description = "Postdoctoral Research Fellow at the University of Vienna, Faculty of Business, Economics and Statistics. Research, writing, and contact."
 
 [menu]
 
@@ -23,7 +23,17 @@ author = "burint"
   [[menu.main]]
     name = "Blog"
     pageRef = "blog"
+    weight = 40
+
+  [[menu.main]]
+    name = "Teaching"
+    pageRef = "teaching"
     weight = 30
+
+  [[menu.main]]
+    name = "Contact"
+    pageRef = "contact"
+    weight = 50
 
   [[menu.footer]]
     name = "Download CV"

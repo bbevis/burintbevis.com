@@ -1,0 +1,17 @@
+<form class="contact-form not-prose" name="contact" method="POST" action="{{ "contact/thanks/" | relURL }}" data-netlify="true" netlify-honeypot="bot-field">
+<input type="hidden" name="form-name" value="contact">
+<p hidden><label>Leave this empty: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+<div class="contact-form-row">
+<div><label for="contact-name">Your name</label><input id="contact-name" name="name" autocomplete="name" required maxlength="200"></div>
+<div><label for="contact-email">Your email</label><input id="contact-email" name="email" type="email" autocomplete="email" required maxlength="254"></div>
+</div>
+<div><label for="contact-subject">Subject</label><input id="contact-subject" name="subject" required maxlength="200"></div>
+<div><label for="contact-message">Message</label><textarea id="contact-message" name="message" rows="7" required maxlength="10000"></textarea></div>
+<p class="contact-form-note">Please include an email address where I can reply.</p>
+{{ if hugo.IsServer }}
+<p class="contact-form-note">Local preview: messages can be sent once the site is deployed with its contact form enabled.</p>
+<button type="submit" disabled>Send message</button>
+{{ else }}
+<button type="submit">Send message</button>
+{{ end }}
+</form>

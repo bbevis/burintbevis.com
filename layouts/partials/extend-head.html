@@ -51,11 +51,38 @@
 </style>
 
 <style>
-  /* Widen text column on content pages */
+  /* Keep body copy and navigation at the same readable size. */
+  body,
+  .prose {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  .main-menu,
+  .main-menu .text-base {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+  /* The fixed header has its own container: match it to the page. */
   @media (min-width: 1024px) {
+    body,
+    .prose,
+    .main-menu,
+    .main-menu .text-base {
+      font-size: 24px;
+    }
+
+    body,
+    body > .fixed.inset-x-0 > .relative {
+      width: 100%;
+      max-width: 1680px;
+      padding-inline: 48px;
+    }
+
     .prose,
     .max-w-prose {
-      max-width: 100ch !important;
+      max-width: 100% !important;
     }
   }
 </style>
@@ -90,5 +117,311 @@
     width: 1em;
     height: 1em;
     display: block;
+  }
+</style>
+
+<style>
+  /* A consistent hierarchy for page titles, blog listings, and dates. */
+  #main-content h1 {
+    font-size: 36px;
+    line-height: 1.2;
+  }
+
+  .article-link--simple header,
+  .article-link--simple header > a {
+    font-size: 28px;
+    line-height: 1.3;
+  }
+
+  .article-link--simple .text-sm,
+  #single_header > .text-base,
+  #main-content > header > .text-base {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .home-social-links {
+    font-size: 32px;
+    margin-top: 16px;
+  }
+
+  .home-social-links > div {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  @media (min-width: 1024px) {
+    #main-content h1 {
+      font-size: 48px;
+    }
+
+    .article-link--simple header,
+    .article-link--simple header > a {
+      font-size: 32px;
+    }
+
+    .article-link--simple .text-sm,
+    #single_header > .text-base,
+    #main-content > header > .text-base {
+      font-size: 20px;
+    }
+
+    .home-social-links {
+      font-size: 36px;
+    }
+  }
+</style>
+
+<style>
+  /* Keep inactive navigation readable against the dark header. */
+  html.dark .main-menu,
+  html.dark .main-menu a,
+  html.dark .main-menu button {
+    color: #ffffff;
+  }
+
+  html.dark .main-menu a:hover,
+  html.dark .main-menu a:focus-visible,
+  html.dark .main-menu button:hover,
+  html.dark .main-menu button:focus-visible {
+    color: var(--brand-accent);
+  }
+</style>
+
+<style>
+  .contact-form { display: grid; gap: 24px; margin-block: 24px; }
+  .contact-form label { display: block; font-weight: 600; margin-bottom: 8px; }
+  .contact-form input:not([type="hidden"]), .contact-form textarea {
+    display: block; width: 100%; padding: 12px 16px; border: 1px solid #708090;
+    border-radius: 8px; background: #fff; color: #161a1d; font: inherit;
+  }
+  .contact-form textarea { resize: vertical; }
+  .contact-form :is(input, textarea, button):focus-visible { outline: 3px solid #008b8b; outline-offset: 3px; }
+  .contact-form button {
+    justify-self: start; padding: 12px 24px; border-radius: 8px;
+    background: #232333; color: #fff; font: inherit; font-weight: 600; cursor: pointer;
+  }
+  .contact-form button:hover:not(:disabled) { background: #005f60; }
+  .contact-form button:disabled { opacity: .6; cursor: not-allowed; }
+  .contact-form-note { margin: 0; font-size: 18px; line-height: 1.5; }
+  .contact-form-row { display: grid; gap: 24px; }
+  html.dark .contact-form :is(input, textarea) { background: #232333; color: #fff; }
+  html.dark .contact-form button { background: #40e0d0; color: #161a1d; }
+  html.dark .contact-form button:hover:not(:disabled) { background: #78ece1; }
+  @media (min-width: 768px) { .contact-form-row { grid-template-columns: 1fr 1fr; } }
+</style>
+
+<style>
+  .home-profile-photo {
+    width: 240px;
+    height: 240px;
+    object-fit: cover;
+  }
+</style>
+
+<style>
+  .office-map { margin-block: 24px; }
+  .office-map iframe {
+    display: block; width: 100%; height: clamp(280px, 32vw, 420px);
+    border: 1px solid #708090; border-radius: 12px;
+  }
+  .office-map > a { display: inline-block; margin-top: 12px; font-size: 20px; }
+  html.dark .office-map > a { color: #40e0d0; }
+  .office-map > a:focus-visible { outline: 3px solid #008b8b; outline-offset: 3px; }
+</style>
+
+<style>
+  /* Editorial palette: navy foundations with restrained teal accents. */
+  :root {
+    --brand-primary: #172d40;
+    --brand-accent: #087f80;
+    --brand-panel: #f1f7f6;
+    --brand-line: #d5e5e3;
+    --brand-heading: #172d40;
+  }
+  html.dark {
+    --brand-primary: #c0e8e4;
+    --brand-accent: #69d9cd;
+    --brand-panel: #1d3038;
+    --brand-line: #355059;
+    --brand-heading: #f4f8fa;
+  }
+  body { background-color: #fcfdfd; }
+  html.dark body { background-color: #14212b; }
+  #main-content { padding-bottom: 48px; }
+  #main-content :is(h1,h2,h3) { color: var(--brand-heading); }
+  #main-content .prose h2 {
+    border-left: 0; padding-left: 0; margin-top: 2.2em;
+    letter-spacing: -.025em;
+  }
+  #main-content .prose a { color: var(--brand-accent); text-decoration-color: var(--brand-line); }
+  #main-content .prose a:hover { text-decoration-color: var(--brand-accent); }
+  #main-content .prose p { line-height: 1.65; }
+  #main-content .prose > p { max-width: 78ch; }
+  .main-menu { padding-block: 18px; border-bottom: 1px solid var(--brand-line); }
+  .main-menu nav { gap: 28px; }
+  .main-menu a { transition: color .15s ease; }
+  .main-menu a:hover { color: var(--brand-accent); }
+  #main-content > article > header, #main-content > header { padding-bottom: 12px; }
+  .home-profile {
+    display: grid; grid-template-columns: minmax(0, 1fr); gap: 40px;
+    padding: 32px; border: 1px solid var(--brand-line); border-radius: 24px;
+    background: linear-gradient(135deg, var(--brand-panel), transparent 85%);
+  }
+  .home-profile .home-identity { border: 0; text-align: center; gap: 12px; }
+  .home-profile .home-profile-photo {
+    border: 6px solid var(--brand-panel); outline: 1px solid var(--brand-line);
+    box-shadow: 0 16px 40px rgb(23 45 64 / .10); margin-bottom: 12px;
+  }
+  .home-profile .home-identity h1 { margin: 0; }
+  .home-profile .home-identity h2 { font-size: 20px; line-height: 1.65; color: var(--brand-heading); }
+  .home-profile .home-identity h2::first-line { font-weight: 600; }
+  .home-profile .home-introduction > p:first-child { margin-top: 0; }
+  .home-profile .home-introduction > p:last-child { margin-bottom: 0; }
+  .home-profile .home-social-links { margin-top: 8px; }
+  .home-profile .home-social-links a { color: var(--brand-accent); }
+  .home-profile .home-cv-button {
+    display: inline-block; padding: 10px 22px; border-radius: 8px;
+    border: 1px solid var(--brand-accent); text-decoration: none; font-weight: 600;
+  }
+  .editorial-panel {
+    min-width: 0; padding: 28px; margin-block: 24px; border: 1px solid var(--brand-line);
+    border-radius: 16px; background: var(--brand-panel);
+  }
+  .editorial-panel > :first-child { margin-top: 0 !important; }
+  .editorial-panel > :last-child { margin-bottom: 0 !important; }
+  .editorial-panel > p:first-child { font-weight: 500; }
+  .editorial-panel details { border-color: var(--brand-line); }
+  .editorial-panel details summary { color: var(--brand-accent); }
+  .editorial-panel details p { max-width: 78ch; }
+  .contact-columns { display: grid; gap: 28px; align-items: start; }
+  .contact-columns .editorial-panel { margin: 0; }
+  .contact-columns .editorial-panel h2 { font-size: 30px; }
+  .contact-columns .office-map iframe { height: 320px; }
+  .contact-form button { background: #087f80; color: white; }
+  .contact-form input:not([type="hidden"]), .contact-form textarea { border-color: var(--brand-line); }
+  .contact-form-note { color: var(--brand-heading); }
+  @media (min-width: 1100px) {
+    .home-profile { grid-template-columns: minmax(300px, .85fr) minmax(0, 1.7fr); gap: 56px; padding: 48px; }
+    .home-profile .home-identity { padding-top: 16px; }
+    .contact-columns { grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); }
+    .contact-columns .contact-form-row { grid-template-columns: 1fr; }
+  }
+  @media (max-width: 639px) {
+    .home-profile { padding: 24px 18px; border-radius: 16px; }
+    .editorial-panel { padding: 22px 18px; }
+    .home-profile .home-identity h1 { font-size: 32px !important; }
+    .home-profile .home-identity h2 { font-size: 18px; }
+    .contact-columns .editorial-panel h2 { font-size: 26px; }
+  }
+</style>
+
+<style>
+  .contact-form { grid-template-columns: minmax(0, 1fr); }
+  .contact-form > *, .contact-form-row > * { min-width: 0; }
+  .contact-form-row { grid-template-columns: minmax(0, 1fr); }
+  @media (min-width: 768px) and (max-width: 1099px) {
+    .contact-form-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+</style>
+
+<style>
+  .site-header-spacer { min-height: 112px; }
+  .main-menu a[aria-current] {
+    text-decoration: underline;
+    text-decoration-color: var(--brand-accent);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+  }
+  .home-affiliation { text-align: center; }
+  .home-affiliation p { margin: 0; }
+  .home-affiliation .home-role { font-size: 22px; font-weight: 600; line-height: 1.5; color: var(--brand-heading); }
+  .home-affiliation .home-institution { font-size: 18px; line-height: 1.6; color: #526671; }
+  html.dark .home-affiliation .home-institution { color: #b7c7ce; }
+  #main-content .editorial-panel h3 { font-size: 28px; line-height: 1.35; letter-spacing: -.015em; }
+  @media (max-width: 639px) {
+    .home-affiliation .home-role { font-size: 20px; }
+    .home-affiliation .home-institution { font-size: 17px; }
+    #main-content .editorial-panel h3 { font-size: 24px; }
+  }
+</style>
+
+<style>
+  :root { --interaction-colour: #005f60; --interaction-tint: #e0f2ef; }
+  html.dark { --interaction-colour: #9aece0; --interaction-tint: #29464d; }
+  a, button, summary, .main-menu label[for="mobile-menu-toggle"] {
+    transition: color 150ms ease, background-color 150ms ease,
+      border-color 150ms ease, text-decoration-color 150ms ease;
+  }
+  #main-content .prose a:hover,
+  #main-content .prose a:focus-visible,
+  .main-menu a:hover,
+  .main-menu a:focus-visible,
+  html.dark .main-menu a:hover,
+  html.dark .main-menu a:focus-visible {
+    color: var(--interaction-colour);
+    text-decoration-color: currentColor;
+  }
+  .home-profile .home-social-links a {
+    display: inline-flex; align-items: center; justify-content: center;
+    min-width: 48px; min-height: 48px; border-radius: 10px;
+  }
+  .home-profile .home-social-links a:hover,
+  .home-profile .home-social-links a:focus-visible {
+    color: var(--interaction-colour); background-color: var(--interaction-tint);
+  }
+  .main-menu button,
+  .main-menu label[for="mobile-menu-toggle"] {
+    border-radius: 8px; padding: 6px;
+  }
+  .main-menu button:hover,
+  .main-menu button:focus-visible,
+  html.dark .main-menu button:hover,
+  html.dark .main-menu button:focus-visible,
+  .main-menu label[for="mobile-menu-toggle"]:hover {
+    color: var(--interaction-colour); background-color: var(--interaction-tint);
+  }
+  .home-profile .home-cv-button:hover,
+  .home-profile .home-cv-button:focus-visible {
+    background-color: var(--interaction-tint); border-color: var(--interaction-colour);
+  }
+  .contact-form button:hover:not(:disabled),
+  .contact-form button:focus-visible:not(:disabled) { background-color: #005f60; color: #fff; }
+  html.dark .contact-form button:hover:not(:disabled),
+  html.dark .contact-form button:focus-visible:not(:disabled) { background-color: #9aece0; color: #14212b; }
+  .editorial-panel details > summary:hover,
+  .editorial-panel details > summary:focus-visible {
+    color: var(--interaction-colour); text-decoration: underline; text-underline-offset: 4px;
+  }
+  a:focus-visible, button:focus-visible, summary:focus-visible,
+  .main-menu input:focus-visible + label {
+    outline: 2px solid var(--brand-accent); outline-offset: 4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    a, button, summary, .main-menu label[for="mobile-menu-toggle"] { transition: none; }
+  }
+</style>
+
+<style>
+  .home-affiliation .home-role,
+  .home-affiliation .home-institution {
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  @media (min-width: 1024px) {
+    .home-affiliation .home-role,
+    .home-affiliation .home-institution {
+      font-size: 24px;
+    }
+  }
+</style>
+
+<style>
+  .home-profile .home-cv-button {
+    margin-top: 12px; font-size: 20px; line-height: 1.5;
+    color: var(--brand-accent);
+  }
+  @media (min-width: 1024px) {
+    .home-profile .home-cv-button { font-size: 24px; }
   }
 </style>
