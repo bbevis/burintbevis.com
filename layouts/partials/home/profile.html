@@ -40,7 +40,7 @@
     <div class="home-social-links mt-1 text-2xl">
       {{ partialCached "author-links.html" . }}
     </div>
-    <a class="home-cv-button" href="{{ "cv.pdf" | relURL }}">Download CV</a>
+    <a class="home-cv-button" href="{{ "CV BB 2026.pdf" | relURL }}">Download CV</a>
   </header>
   <section class="home-introduction prose dark:prose-invert w-full">{{ .Content | replaceRE `<p><a href="/cv.pdf"[^>]*>Download CV</a></p>` "" | safeHTML }}</section>
 </article>
