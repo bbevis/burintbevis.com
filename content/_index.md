@@ -5,7 +5,7 @@ description: "Postdoctoral Research Fellow at the University of Vienna, Faculty 
 
 ## How can we challenge each other vigorously and still work well together?
 
-Behind many difficult problems lies another: how to make progress with people who see things differently. Disagreement can help us question assumptions and find better answers, but it can also leave us stuck. I study what helps us work through those impasses and strengthen our relationships at the same time.
+Behind many difficult problems lies another: how to make progress with people who see things differently. Disagreement can help us question assumptions, learn from each other, and find better answers, but it can also leave us torn between standing our ground and keeping the peace. I study what allows us to work through those impasses and strengthen our relationships at the same time.
 
 I combine experiments with computational tools to examine disagreements in finer detail—from the words people choose and their tone of voice to the critical junctures that shape where a disagreement goes next.
 
