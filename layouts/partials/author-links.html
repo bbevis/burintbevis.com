@@ -1,0 +1,21 @@
+{{ with .Site.Params.Author.links }}
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    {{ range $links := . }}
+      {{ range $name, $url := $links }}
+        {{ $label := $name | title }}
+        {{ if eq $url "https://ufind.univie.ac.at/en/person.html?id=1023429" }}
+          {{ $label = "University of Vienna profile" }}
+        {{ end }}
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="{{ $url | safeURL }}"
+          target="_blank"
+          aria-label="{{ $label }}"
+          title="{{ $label }}"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">{{ partial "icon.html" $name }}</span></a
+        >
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

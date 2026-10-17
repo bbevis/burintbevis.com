@@ -28,7 +28,7 @@ University of Vienna
 
 Oskar-Morgenstern-Platz 1  
 1090 Vienna, Austria  
-**Office:** 04.310
+**Office:** 4.310
 
 <div class="office-map not-prose">
   <iframe

@@ -13,6 +13,6 @@ weight = 1
       { github = "https://github.com/bbevis" },
       { linkedin = "https://www.linkedin.com/in/burint-bevis-72b5a811/" },
       { scholar = "https://scholar.google.com/citations?user=EM78kQsAAAAJ&hl=en" },
-      { link = "https://ufind.univie.ac.at/en/person.html?id=1023429" }
+      { imperial = "https://ufind.univie.ac.at/en/person.html?id=1023429" }
     ]
 
