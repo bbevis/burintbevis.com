@@ -36,7 +36,7 @@ Amid rising global polarization, finding ways to disagree constructively is vita
 
 **Bevis, B.**, Shi, Y., & Yeomans, M.
 
-Manuscript in preparation · Target journal: *Advances in Methods and Practices in Psychological Science*
+Target journal: *Advances in Methods and Practices in Psychological Science*
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -53,7 +53,7 @@ Organizations are filled with conversations, and how people treat each other can
 
 **Bevis, B.**, Hu, X., Houghton, J., & Kennedy, M.
 
-Manuscript in preparation · Target journal: *Administrative Science Quarterly*
+Target journal: *Administrative Science Quarterly*
 
 <details>
   <summary><strong>Abstract</strong></summary>
@@ -70,7 +70,7 @@ High-stakes problem-solving requires exploring different paths to solutions, yet
 
 **Bevis, B.**, Talaifar, S., Jordan, D., Harari, G., Gosling, S., Back, M., & Kroencke, L.
 
-Manuscript in preparation · Target journal: *PNAS*
+Target journal: *PNAS*
 
 <details>
   <summary><strong>Abstract</strong></summary>
