@@ -425,3 +425,18 @@
     .home-profile .home-cv-button { font-size: 24px; }
   }
 </style>
+
+<style>
+  .publication-overview { display: grid; gap: 28px; align-items: center; }
+  .publication-overview > * { min-width: 0; }
+  .publication-description > :first-child { margin-top: 0; }
+  .publication-description > :last-child { margin-bottom: 0; }
+  .publication-overview .publication-figure { margin: 0; }
+  .publication-figure > a { display: block; background: white; border-radius: 10px; overflow: hidden; border: 1px solid var(--brand-line); }
+  .publication-figure img { display: block; width: 100%; height: auto; margin: 0; }
+  .publication-figure figcaption { margin-top: 10px; font-size: 16px; text-align: right; }
+  .publication-overview + details { margin-top: 28px; }
+  @media (min-width: 1100px) {
+    .publication-overview { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 36px; }
+  }
+</style>
