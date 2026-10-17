@@ -293,7 +293,7 @@
   .editorial-panel > p:first-child { font-weight: 500; }
   .editorial-panel details { border-color: var(--brand-line); }
   .editorial-panel details summary { color: var(--brand-accent); }
-  .editorial-panel details p { max-width: 78ch; }
+  .editorial-panel details p { max-width: none; }
   .contact-columns { display: grid; gap: 28px; align-items: start; }
   .contact-columns .editorial-panel { margin: 0; }
   .contact-columns .editorial-panel h2 { font-size: 30px; }
@@ -427,16 +427,18 @@
 </style>
 
 <style>
-  .publication-overview { display: grid; gap: 28px; align-items: center; }
+  .publication-overview { display: grid; gap: 28px; align-items: start; }
   .publication-overview > * { min-width: 0; }
   .publication-description > :first-child { margin-top: 0; }
+  #main-content .publication-description > h3 { margin-bottom: 16px; }
+  #main-content .publication-description > p { margin-block: 12px; }
   .publication-description > :last-child { margin-bottom: 0; }
   .publication-overview .publication-figure { margin: 0; }
   .publication-figure > a { display: block; background: white; border-radius: 10px; overflow: hidden; border: 1px solid var(--brand-line); }
   .publication-figure img { display: block; width: 100%; height: auto; margin: 0; }
-  .publication-figure figcaption { margin-top: 10px; font-size: 16px; text-align: right; }
   .publication-overview + details { margin-top: 28px; }
   @media (min-width: 1100px) {
     .publication-overview { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 36px; }
+    .publication-overview .publication-figure { width: 85%; justify-self: end; }
   }
 </style>

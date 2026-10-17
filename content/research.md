@@ -17,7 +17,7 @@ showPagination: false
 
 *Nature Communications* (2026)
 
-[Read the paper](https://www.nature.com/articles/s41467-026-71669-5) · [OSF / Research materials](https://doi.org/10.17605/OSF.IO/C3ZGY)
+[Read the paper](https://www.nature.com/articles/s41467-026-71669-5) · [OSF](https://doi.org/10.17605/OSF.IO/C3ZGY)
 
 {{< /publication-overview >}}
 
