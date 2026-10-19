@@ -2,7 +2,7 @@ colorScheme = "ocean"
 defaultAppearance = "light"
 autoSwitchAppearance = true
 
-enableSearch = true
+enableSearch = false
 enableCodeCopy = false
 
 [header]

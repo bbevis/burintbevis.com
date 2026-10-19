@@ -21,7 +21,7 @@ You can also email me at [burint.bevis@univie.ac.at](mailto:burint.bevis@univie.
 
 ## Find me at the University of Vienna
 
-Organization Research Unit
+Organization Research Unit  
 Department of Accounting, Innovation and Strategy  
 Faculty of Business, Economics and Statistics  
 University of Vienna
