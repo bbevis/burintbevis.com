@@ -11,9 +11,7 @@ showPagination: false
 
 ### Organizational Behavior (MA)
 
-**University of Vienna · Winter semester 2026/27**
-
-*Building Blocks of Organization and Personnel II — course 040361*
+<p class="course-meta">University of Vienna · Winter semester 2026/27<br>Building Blocks of Organization and Personnel II — course 040361</p>
 
 Topics include individual differences and decision-making, team collaboration, conflict management, AI in teamwork, leadership, and ethics.
 

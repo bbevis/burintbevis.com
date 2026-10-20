@@ -89,6 +89,6 @@ Research consistently shows a partisan well-being gap, with liberals reporting l
 
 ## Work in Progress
 
-- **Bevis, B.**, Huang, E., & Kumar, A. (work in progress). TurnPoint: A transformer-based approach for identifying critical junctures in disagreement. *(Target journal: *Organization Science*.)*
--  Kennedy, M., **Bevis, B.** (work in progress). Walled-ff worlds: Technology-Enabled Polarization and Institutional Fragility. *(Target journal: *Academy of Management Review*.)*
-- **Bevis, B.**, Goglia, D., & Wohlert, I. (work in progress). A unifying theory of constructive disagreement. *(Target journal: *Academy of Management Review*.)*
+- **Bevis, B.**, Huang, E., & Kumar, A.. TurnPoint: A transformer-based approach for identifying critical junctures in disagreement.
+-  Kennedy, M., **Bevis, B.**. Walled-ff worlds: Technology-Enabled Polarization and Institutional Fragility.
+- **Bevis, B.**, Goglia, D., & Wohlert, I.. A unifying theory of constructive disagreement.

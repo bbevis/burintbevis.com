@@ -1,0 +1,6 @@
+{{ $speaker := .Get "speaker" | default "burint" }}
+<div class="conversation-turn conversation-turn--{{ if eq $speaker "visitor" }}visitor{{ else }}burint{{ end }}">
+  {{ with .Get "label" }}<span class="conversation-speaker">{{ . }}</span>{{ end }}
+  {{ .Inner | markdownify }}
+  {{ with .Get "link" }}<a class="conversation-link" href="{{ . }}"{{ if strings.HasPrefix . "https://github.com" }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ if strings.HasPrefix . "https://github.com" }}{{ partial "icon.html" "github" }}{{ end }}{{ $.Get "linkText" }} <span aria-hidden="true">→</span></a>{{ end }}
+</div>

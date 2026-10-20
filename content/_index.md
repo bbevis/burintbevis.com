@@ -1,12 +1,50 @@
 ---
 title: "Burint Bevis"
-description: "Postdoctoral Research Fellow at the University of Vienna, Faculty of Business, Economics and Statistics. Research, writing, and contact."
+description: "Burint Bevis studies constructive disagreement using experiments and computational tools. Postdoctoral Research Fellow at the University of Vienna."
 ---
 
-## How can we challenge each other vigorously and still work well together?
+<div class="conversation-opening">
+  <p class="conversation-kicker">The science of constructive disagreement</p>
+  <h1>What happens between<br>“I disagree” and “let’s try it”?</h1>
+  <p>I study how people can challenge each other vigorously and still work well together</p>
+</div>
 
-Behind many difficult problems lies another: how to make progress with people who see things differently. Disagreement can help us question assumptions, learn from each other, and find better answers, but it can also leave us torn between standing our ground and keeping the peace. I study what allows us to work through those impasses and strengthen our relationships at the same time.
+{{< turn speaker="visitor" label="You" >}}
+Disagreement doesn’t usually feel very constructive.
+{{< /turn >}}
 
-I combine experiments with computational tools to examine disagreements in finer detail—from the words people choose and their tone of voice to the critical junctures that shape where a disagreement goes next.
+{{< turn label="Burint" >}}
+No. But avoiding it isn’t much of a solution either. I’m interested in how we can push back and sharpen each other’s thinking and still leave as friends.
+{{< /turn >}}
 
-I’m a Postdoctoral Research Fellow at the University of Vienna. I completed my PhD in Organizational Behavior at Imperial College London and a MSc in Data Science at King’s College London.
+{{< turn speaker="visitor" >}}
+That sounds like a difficult balance.
+{{< /turn >}}
+
+{{< turn >}}
+Sometimes. You can have a useful point to make and still struggle to get it across when emotions are high. I study what happens in those moments—and what helps people move forward together.
+{{< /turn >}}
+
+{{< turn speaker="visitor" >}}
+So you look at actual conversations?
+{{< /turn >}}
+
+{{< turn link="https://github.com/bbevis" linkText="Explore my code on GitHub" >}}
+Yes. I combine experiments with computational tools to study how people’s words, tone of voice, and facial expressions shape each other’s responses—and ultimately, where the conversation leads.
+{{< /turn >}}
+
+{{< turn speaker="visitor" >}}
+I can see where the data science comes in.
+{{< /turn >}}
+
+{{< turn link="/research/" linkText="Explore my research" >}}
+It brings together my PhD in Organizational Behavior from Imperial College London and my MSc in Data Science from King’s College London. The methods help me get closer to a very human question.
+{{< /turn >}}
+
+{{< turn speaker="visitor" >}}
+I suppose teaching gives you another way to think about all this.
+{{< /turn >}}
+
+{{< turn link="/teaching/" linkText="Explore my teaching" >}}
+It does. I teach organizational behavior, which gives me a direct way to bring my research into the classroom. But it goes bothways. Sometimes, class discussions can also challenge how I’m thinking about a problem and spark questions for my research.
+{{< /turn >}}
