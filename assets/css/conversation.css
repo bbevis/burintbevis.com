@@ -67,3 +67,5 @@ html.dark .main-menu>a,html.dark .main-menu label,html.dark .main-menu .icon{col
 /* Match the shared Research/Teaching container rather than adding a narrower home limit. */
 .home-conversation-content{max-width:100%}
 @media(min-width:768px){.home-letter-opening{grid-template-columns:minmax(0,1fr) 320px}.home-letter-photo{width:320px;height:320px}}
+
+@media(min-width:768px){#main-content .home-letter-introduction h1{font-size:44px}}

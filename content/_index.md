@@ -5,7 +5,7 @@ description: "Burint Bevis studies constructive disagreement using experiments a
 
 {{< home-opening >}}
 <p class="conversation-kicker">The science of constructive disagreement</p>
-<h1><span class="home-letter-greeting">Hi, I’m Burint!</span>I study how people can challenge each other vigorously and still work well together</h1>
+<h1><span class="home-letter-greeting">Hi, I’m Burint!</span>I study how people can challenge each other vigorously and still want to talk afterwards</h1>
 {{< /home-opening >}}
 
 {{< turn speaker="visitor" label="You" >}}
