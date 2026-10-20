@@ -61,3 +61,9 @@ html.dark .main-menu>a,html.dark .main-menu label,html.dark .main-menu .icon{col
 .home-letter-affiliation p:last-child{font-size:21px;line-height:1.4;color:var(--brand-muted);max-width:500px;margin-top:6px}
 .home-letter-introduction>.home-cv-button{margin-top:20px}
 @media(max-width:767px){.home-letter-opening{grid-template-columns:1fr;gap:28px;padding:24px 0 30px;margin-bottom:24px}.home-letter-photo{grid-column:1;grid-row:1;width:190px;height:190px}.home-letter-introduction{grid-column:1;grid-row:2}.home-letter-affiliation p{font-size:20px}.home-letter-affiliation p:last-child{font-size:18px}}
+/* Give the personal introduction and conversation a little more room. */
+.home-conversation-content{max-width:1160px}
+@media(min-width:768px){.home-letter-opening{grid-template-columns:minmax(0,1fr) 300px}.home-letter-photo{width:300px;height:300px}}
+/* Match the shared Research/Teaching container rather than adding a narrower home limit. */
+.home-conversation-content{max-width:100%}
+@media(min-width:768px){.home-letter-opening{grid-template-columns:minmax(0,1fr) 320px}.home-letter-photo{width:320px;height:320px}}
