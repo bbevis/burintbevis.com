@@ -3,11 +3,10 @@ title: "Burint Bevis"
 description: "Burint Bevis studies constructive disagreement using experiments and computational tools. Postdoctoral Research Fellow at the University of Vienna."
 ---
 
-<div class="conversation-opening">
-  <p class="conversation-kicker">The science of constructive disagreement</p>
-  <h1>What happens between<br>“I disagree” and “let’s try it”?</h1>
-  <p>I study how people can challenge each other vigorously and still work well together</p>
-</div>
+{{< home-opening >}}
+<p class="conversation-kicker">The science of constructive disagreement</p>
+<h1><span class="home-letter-greeting">Hi, I’m Burint!</span>I study how people can challenge each other vigorously and still work well together</h1>
+{{< /home-opening >}}
 
 {{< turn speaker="visitor" label="You" >}}
 Disagreement doesn’t usually feel very constructive.

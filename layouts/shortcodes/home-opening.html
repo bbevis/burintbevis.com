@@ -1,0 +1,19 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+<section class="home-letter-opening" aria-label="About Burint Bevis and my research">
+  {{ with .Site.Params.Author.image }}
+    {{ with resources.Get . }}
+      {{ $image := . }}
+      {{ if not (or $disableImageOptimization (eq .MediaType.SubType "svg")) }}
+        {{ $image = .Fill "560x560 q96" }}
+      {{ end }}
+      <img class="home-letter-photo" width="230" height="230" alt="{{ $.Site.Params.Author.name }}" src="{{ $image.RelPermalink }}" fetchpriority="high">
+    {{ end }}
+  {{ end }}
+  <div class="home-letter-introduction">
+    {{ .Inner | markdownify }}
+    {{ with .Site.Params.Author.headline }}
+      <div class="home-letter-affiliation">{{ range split . "<br>" }}<p>{{ . | markdownify }}</p>{{ end }}</div>
+    {{ end }}
+    <a class="home-cv-button" href="{{ "cv.pdf" | relURL }}">Download CV</a>
+  </div>
+</section>

@@ -50,3 +50,14 @@ html.dark .main-menu>a,html.dark .main-menu label,html.dark .main-menu .icon{col
 .home-cv-button,.contact-form button{font-size:18px;line-height:1.5;padding:11px 20px;min-height:49px}
 .article-content>p,.article-content>ul,.article-content>ol,.article-content>blockquote{max-width:76ch}
 @media(max-width:767px){#main-content .course-meta{font-size:18px}.editorial-panel{margin-block:20px;padding-block:22px}#main-content>header{margin-bottom:20px}}
+/* Approved personal-letter opening: introduction and credentials left, portrait right. */
+.home-letter-opening{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:60px;align-items:center;padding:38px 0 42px;margin-bottom:28px;border-bottom:1px solid var(--brand-line)}
+.home-letter-photo{grid-column:2;grid-row:1;display:block;width:260px;height:260px;border:6px solid #fff;border-radius:50%;object-fit:cover}
+.home-letter-introduction{grid-column:1;grid-row:1;min-width:0}
+.home-letter-introduction>.conversation-kicker{margin:0 0 18px}
+#main-content .home-letter-introduction h1{font-size:36px;font-weight:500;line-height:1.2;letter-spacing:-.03em;margin:0 0 25px}
+.home-letter-greeting{display:block;font-size:inherit;line-height:inherit;font-weight:inherit;color:var(--brand-accent);margin-bottom:13px}
+.home-letter-affiliation p{font-size:23px;line-height:1.45;margin:0}
+.home-letter-affiliation p:last-child{font-size:21px;line-height:1.4;color:var(--brand-muted);max-width:500px;margin-top:6px}
+.home-letter-introduction>.home-cv-button{margin-top:20px}
+@media(max-width:767px){.home-letter-opening{grid-template-columns:1fr;gap:28px;padding:24px 0 30px;margin-bottom:24px}.home-letter-photo{grid-column:1;grid-row:1;width:190px;height:190px}.home-letter-introduction{grid-column:1;grid-row:2}.home-letter-affiliation p{font-size:20px}.home-letter-affiliation p:last-child{font-size:18px}}

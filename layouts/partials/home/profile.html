@@ -1,28 +1,6 @@
-{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
 <article class="home-profile">
   <div class="home-conversation-content">{{ .Content }}</div>
-  <section class="home-closing-profile" aria-label="About Burint Bevis">
-    {{ with .Site.Params.Author.image }}
-      {{ $authorImage := resources.Get . }}
-      {{ if $authorImage }}
-        {{ $final := $authorImage }}
-        {{ if not (or $disableImageOptimization (eq $authorImage.MediaType.SubType "svg")) }}
-          {{ $final = $authorImage.Fill "560x660 q96" }}
-        {{ end }}
-        <img class="home-profile-photo" width="280" height="330" alt="{{ $.Site.Params.Author.name }}" src="{{ $final.RelPermalink }}" loading="lazy">
-      {{ end }}
-    {{ end }}
-    <div class="home-profile-details">
-      <p class="profile-kicker">The person behind the research</p>
-      <h2>{{ .Site.Params.Author.name | default .Site.Title }}</h2>
-      {{ with .Site.Params.Author.headline }}
-        <div class="home-affiliation">{{ range split . "<br>" }}<p>{{ . | markdownify }}</p>{{ end }}</div>
-      {{ end }}
-      <a class="home-cv-button" href="{{ "cv.pdf" | relURL }}">Download CV</a>
-    </div>
-  </section>
 </article>
 <section>{{ partial "recent-articles/main.html" . }}</section>
-
 {{ $reveal := resources.Get "js/conversation-reveal.js" | minify | fingerprint }}
 <script src="{{ $reveal.RelPermalink }}" integrity="{{ $reveal.Data.Integrity }}" defer></script>
