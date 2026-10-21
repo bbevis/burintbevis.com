@@ -1,3 +1,4 @@
+defaultSocialImage = "images/site-preview.png"
 colorScheme = "ocean"
 defaultAppearance = "light"
 autoSwitchAppearance = true
