@@ -1,0 +1,20 @@
+<div class="collaborators-grid" role="list" aria-label="Collaborators, alphabetically by surname">
+  {{ range sort site.Data.collaborators "surname" }}
+    {{ $portrait := resources.Get .image }}
+    {{ $small := $portrait.Fill "200x200 Top webp q88" }}
+    {{ $large := $portrait.Fill "400x400 Top webp q88" }}
+    <div class="collaborator" role="listitem">
+      <a class="collaborator-link" href="{{ .website }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }} — website (opens in a new tab)">
+        <img class="collaborator-portrait nozoom" src="{{ $small.RelPermalink }}"
+          srcset="{{ $small.RelPermalink }} 200w, {{ $large.RelPermalink }} 400w"
+          sizes="(max-width: 767px) 124px, 180px" width="180" height="180"
+          alt="" loading="lazy" decoding="async">
+        <h2 class="collaborator-name">{{ .name }}</h2>
+      </a>
+      <p class="collaborator-affiliation">{{ .affiliation }}</p>
+    </div>
+  {{ end }}
+</div>
+
+{{ $reveal := resources.Get "js/collaborators-reveal.js" | minify | fingerprint }}
+<script src="{{ $reveal.RelPermalink }}" integrity="{{ $reveal.Data.Integrity }}" defer></script>
