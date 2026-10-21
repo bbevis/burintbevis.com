@@ -15,7 +15,7 @@ showPagination: false
 
 Topics include individual differences and decision-making, team collaboration, conflict management, AI in teamwork, leadership, and ethics.
 
-[Course details and timetable on u:find](https://ufind.univie.ac.at/en/course.html?lv=040361&semester=2026W) · [Course materials on Moodle](https://moodle.univie.ac.at/course/view.php?id=470869)
+<p class="page-actions"><a href="https://ufind.univie.ac.at/en/course.html?lv=040361&amp;semester=2026W">Course details and timetable on u:find</a> · <a href="https://moodle.univie.ac.at/course/view.php?id=470869">Course materials on Moodle</a></p>
 
 {{< /panel >}}
 
