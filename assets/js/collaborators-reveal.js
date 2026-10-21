@@ -3,6 +3,8 @@
   if (!grid || !('IntersectionObserver' in window)) return;
   const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
   if (motion.matches) return;
+  const sessionKey = 'collaborators-seen';
+  try { if (sessionStorage.getItem(sessionKey) === 'true') return; } catch (_) { /* Storage may be unavailable. */ }
   const people = [...grid.querySelectorAll('.collaborator')];
   let observer;
   let next = 0;
@@ -39,6 +41,7 @@
       person.classList.add('person-reveal', 'person-pending');
       observer.observe(person);
     });
+    try { sessionStorage.setItem(sessionKey, 'true'); } catch (_) { /* Animation still works without storage. */ }
     grid.addEventListener('focusin', event => {
       const person = event.target.closest('.collaborator');
       const index = people.indexOf(person);
