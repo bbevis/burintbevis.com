@@ -37,7 +37,7 @@ How did you get into this? It seems to draw on quite a few different disciplines
 {{< /turn >}}
 
 {{< turn link="/research/" linkText="Explore my research" >}}
-I came to this through organizational behavior and data science. I completed my PhD at Imperial College London and my MSc in Data Science at King’s College London. Bringing those perspectives together lets me study a very human question in finer detail.
+I completed my PhD in Organizational Behavior at Imperial College London and my MSc in Data Science at King’s College London. Bringing those perspectives together lets me study a very human question in finer detail.
 {{< /turn >}}
 
 {{< turn speaker="visitor" >}}

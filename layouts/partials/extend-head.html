@@ -4,3 +4,7 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 {{ $styles := resources.Get "css/conversation.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
+{{ if and .IsPage (eq .Section "blog") }}
+  {{ $blogStyles := resources.Get "css/blog.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $blogStyles.RelPermalink }}" integrity="{{ $blogStyles.Data.Integrity }}">
+{{ end }}

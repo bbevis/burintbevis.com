@@ -1,0 +1,4 @@
+/* Wider articles, with a modest cap for comfortable reading on large screens. */
+#main-content>article>section>.min-w-0{width:100%;max-width:1120px}
+#main-content .article-content{width:100%;max-width:1120px}
+#main-content .article-content>:is(p,ul,ol,blockquote){max-width:100%}
