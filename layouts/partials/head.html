@@ -226,4 +226,9 @@
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ . }}"
       crossorigin="anonymous"></script>
   {{ end }}
+{{ if and .IsPage (eq .Section "blog") }}
+  {{ $blogStyles := resources.Get "css/blog.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $blogStyles.RelPermalink }}" integrity="{{ $blogStyles.Data.Integrity }}">
+{{ end }}
+
 </head>
