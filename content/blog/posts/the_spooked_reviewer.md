@@ -4,7 +4,7 @@ date: 2026-10-28
 description: "A fictional Halloween study meets Reviewer #2. The costumes are coordinated. The argument less so."
 ---
 
-**Reviewer #2 Comments**
+## Reviewer #2 Comments
 
 I regret to inform the authors that I read this manuscript three times, each time hoping I had perhaps misunderstood the theoretical framework, the study design, or the basic logic of the paper. Unfortunately, I can now confidently conclude that I did not misunderstand it—the manuscript simply does not contain a coherent argument. While I applaud the authors’ effort to examine the “role of spooky costumes in fostering team cohesion” (p. 2), the execution is more bewildering than illuminating.
 
@@ -21,18 +21,20 @@ Results and Interpretation
 The manuscript transitions from descriptive statistics to narrative impressions such as: “One could feel the collaborative synergy radiating from the group dressed as the Avengers.” This is not a result. This is a vibe.
 The authors further claim that group-costumed participants “spoke in more harmonious vocal tones,” yet no vocal tone analysis was conducted. Saying “we just noticed it, you know, in the moment” does not constitute empirical evidence. This section reads less like a results discussion and more like the authors are reminiscing about a block-party.
 
-## Practical Implications**
+## Practical Implications
 The authors conclude that organizations should mandate Halloween participation, claiming: “Mandatory fun leads to mandatory unity.” This is a bold declaration, and notably one that ignores the entire literature on autonomy, identity threat, and why people unionize. One could just as plausibly argue that forcing employees to dress as Teletubbies may expedite mass workplace revolt.
 Writing and Presentation
 The writing style is energetic but alarmingly whimsical. Phrases such as “the conference room vibrated with ecstatic echoes of shared whimsy” would be more appropriate in a community theater playbill. Figures 2 and 3 are non-anonymized photographs of costumed strangers, decorated with clip-art pumpkins. I cannot stress enough how unpublishable this is.
 
 ## Recommendation
 I cannot recommend publication. The idea has seasonal charm, but:
-1.	The theory is not grounded.
-2.	The sample may not exist.
-3.	The statistics are… creative.
-4.	The conclusions are not supported.
-5.	Not everyone wants to dress as a Minion.
-Recommendation: Reject.
+
+1.	The theory is not grounded
+2.	The sample may not exist
+3.	The statistics are… creative
+4.	The conclusions are not supported
+5.	Not everyone wants to dress as a Minion
+
+**Recommendation: Reject**
 
 
